@@ -1,7 +1,4 @@
-# Type Casting in Python
-
-Python focuses on puting inputs from users or other services and providing output.
-
+# Inputs in Python(Inputs & Outputs)
 
 ## *Inputs*
 
@@ -32,7 +29,7 @@ These include:
     - It is values that are printed onscreen
     
 ### *sep*
-    - which defines how the objects being printed or separated
+    - which defines how the objects being printed or separated using commas or strings.
 
 ### *end*
     - defines what gets printed at the end.
@@ -46,3 +43,13 @@ These include:
 ## *Print parameters*
 
 *print('Hello', 'you!', sep=', ')*
+
+## *Direct formatting*
+
+*a = 10*
+*b = 5*
+*ans = a + b*
+*print('Adding the value of{} and {} = {}. format(a, b, ans))*
+
+Python allows for direct formatting inside the print statement. You can also control the order by specufying the numbers inside the curly brackets.
+
