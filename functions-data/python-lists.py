@@ -1,3 +1,5 @@
+#LISTS
+
 # DONE: declare lists
 list1 = [1, 2, 3, 4, 5] # In order to declare a list, I start by typing list 1 as my variable. For my values, I type in 1, 2, 3, 4, and 5 within brackets and separate the number values with commas because it's to help separate items in a list.
 
@@ -17,4 +19,5 @@ list4 =[1, [2, 3, 4], 5, 6] # This is valid too :)
 # * sign and click on Run  
 print(*list1) # after clicking RUN the entire list gets printed out. 
 
-print(*list1 ,  sep = ", " )
+for x in list1:
+    print('Value:', x)
