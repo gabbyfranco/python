@@ -46,6 +46,14 @@ OOP's key components:
 
     + *__Methods__* are functions defined inside a class that determine the behavior of an object instance.
 
+Here are the concepts that OOP hinges upon.
+
+The first one is *__Inheritance__*.
+
+*__Inheritance__* is the creation of a new class by deriving from an existing one.
+
+The original is called *__the parent__* or *__superclass__*, or any derivatives are referred to as the *__subclass__* or *__child class__*.
+
 The next concept is called *__polymorphism__*, it means having many forms. 
 
 *__Polymorphism__* means that a single function can act differently depending on the object or the causes.
@@ -53,3 +61,13 @@ The next concept is called *__polymorphism__*, it means having many forms.
 The third concept is *__encapsulation__*.
 
 *__Encapsulation__* means that Python can bind methods and variable from direct access by wrapping them within a single unit of scope, such as a class.
+
+*__Encapsulation__* helps prevent unwanted modifications, in effect, reducing the occurrence of errors and outputs.
+
+Finally, there is a concept of *__abstraction__*.
+
+*__Abstraction__* refers to the ability to hide implementation details to make data safer and more secure.
+
+*__Note that Python does not support abstraction directly and uses inheritance to achieve it.__*
+
+There are other OOP concepts such as *__Method overloading__*, *__Method overriding__*, *__Constructors__*, and more.
